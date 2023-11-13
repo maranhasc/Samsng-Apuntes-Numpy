@@ -1,11 +1,9 @@
 import time
 import numpy as np
 
-size_of_vec = 1000000
+size_of_vec = 10000
 
 def pure_python_version():
-
-    
     t1 = time.time()
     X = range(size_of_vec)
     Y = range(size_of_vec)
